@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #312624;
+  background-image: url(../img/Halloween_Carved_Pumpkin_PNG_Clip_Art-398441966.png);
+  background-repeat: repeat-y;
+}
+#father-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+  min-width: 80vh;
+  margin-top: 50px;
+  border: 3px solid #ffbcb5;
+  background-color: #c97d60;
+}
+
+#main-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+}
+
+#input {
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+}
+#moneda {
+  width: 230px;
+  height: 25px;
+  border-radius: 5px;
+}
+#btn-1 {
+  font-size: 15px;
+  width: 120px;
+  height: 25px;
+  color: white;
+  background-color: blue;
+  border: 2px solid cyan;
+  border-radius: 15%;
+}
+
+.tittle {
+  color: white;
+  font-size: 45px;
+}
+.text {
+  color: white;
+  text-decoration:underline;
+}
+.result {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.grafica{
+  width: 500PX;
+  height: 250px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="32x32"
+      href="./assets/img/GIMMIGHOUL.png"
+    />
+    <link rel="icon" type="img/png" href="./assets/img/apple-icon-72x72.png" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://kit.fontawesome.com/5e3573f07d.js" crossorigin="anonymous"></script>
+    <title>CONVERSOR DE MONEDAS</title>
+  </head>
+  <body>
+    <div id="father-container">
+      <h1 class="tittle">Conversor de Monedas Nacional</h1>
+      <div id="main-container">
+        <div class="text box">
+          <h2>PESOS CLP</h2>
+        </div>
+        <input
+          type="number"
+          value=""
+          placeholder="Ingrese monto"
+          id="input"
+        />
+        <h3 class="text">Moneda de cambio:</h3>
+        <select id="moneda">
+          <option value="">Seleccione su moneda</option>
+          <option value="bitcoin">Bitcoin</option>
+          <option value="dolar">Dolar</option>
+          <option value="euro">Euro</option>
+          <option value="ipc">IPC</option>
+          <option value="uf">UF</option>
+        </select>
+        <button id="btn-1">Convertir</button>
+        <p class="result"></p>
+      </div>
+      <div class="grafica">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
