@@ -7,6 +7,8 @@ async function CambioMonedas() {
     dato = await res.json();
     console.log(dato);
   } catch (error) {
+    let response = document.querySelector(".result");
+    response.textContent = ` No Podemos atender tu solicitud ahora mismo`;
     console.error(` Se ha presentado un ${error}`);
   }
 }
